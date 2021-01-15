@@ -1,90 +1,120 @@
 <!DOCTYPE html>
-<html>
-	<head>
-    <meta charset="UTF-8">
-		<title>Сайт-портфолио Стасии</title>
-		<meta name="description" content="Сайт-портфолио junior-дизайнера из Воркуты">
-		<link href="style.css" rel="stylesheet">
-    <link rel="icon" type="image" href="#">           <!-- для фавикона -->
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    
-	</head>
-	<body>
-    <input type="checkbox" id="hmt" class="hiddenmenu">
-    
-    <!--Icon-->
-    <label class="button" for="hmt">
-      <span class="first"></span>
-      <span class="second"></span>
-      <span class="third"></span>
-    </label>  
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Сайт-портфолио начинающего веб-дизайнера и фронтенд-разработчика Анастасии Писновой">
+	<title>Персональный сайт Анастасии Писновой</title>
+	<link rel="stylesheet" href="css.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--White margins like Shelnat-->
+	<div class="margins"></div>
     
     <!--Menu-->
-    <ul class="menutoggle">
-      <li><a href="#iintro">Intro</a></li>
-      <li><a href="#aabout">About</a></li>
-      <li><a href="#eedu">Education</a></li>
-      <li><a href="#wworks">Works</a></li>
-      <li><a href="#llinks">Links</a></li>
-    </ul>
-    
-        
-		<section id="iintro">
-      <div class="intro">
-            <!--Интро-->
-			  <h1>Это мой сайт-портфолио</h1>
-			  <h2>Давайте знакомиться<h2>
-		  </div>
-    </section>
-   <!--Вторая страница-->
-    <section id="aabout">
-        <div class="about">
-          <div class="photo">
-          <img src='images/me.jpg'>
-          </div>
-        <div class="mylife">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ex est. Aenean sed nulla enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor metus, faucibus sed nibh lacinia, blandit placerat orci. Pellentesque tempor eros nec mi ornare elementum. Pellentesque vitae malesuada mauris. Nam convallis ut massa vehicula bibendum.</p>
-        </div>
-        </div> 
-    </section>
-        
-    <!--Третья страница-->
-    <section id="eedu">
-      <div class="edu">
-        <div class="anotherlife">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ex est. Aenean sed nulla enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor metus, faucibus sed nibh lacinia, blandit placerat orci. Pellentesque tempor eros nec mi ornare elementum. Pellentesque vitae malesuada mauris. Nam convallis ut massa vehicula bibendum.</p>
-        </div> 
-        <div class="anotherphoto">
-          <img src='images/diploma.jpg'>
-        </div>  
-      </div> 
-    </section>
-    
-    <!--Четвёртая страница--> 
-    <section id="wworks">
-      <div class="works">
-        <div class="photo">
-          <img src='images/work.jpg'>
-        </div>  
-        <div class="mylife">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ex est. Aenean sed nulla enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor metus, faucibus sed nibh lacinia, blandit placerat orci. Pellentesque tempor eros nec mi ornare elementum. Pellentesque vitae malesuada mauris. Nam convallis ut massa vehicula bibendum.</p>
-        </div>
-      </div> 
-    </section>
-      
-    <!--Пятая страница --> 
-    <section id="llinks">
-        <div class="links">
-          <div class="anotherlife">
-            <p>bloodhast@yandex.ru</p>
-            <p>www.example.com</p>
-          </div>  
-      
-          <div class="anotherphoto">
-            <img src='images/community.jpg'>
-          </div>   
-        </div>  
-    </section>
-	</body>
+<!--     <ul class="menutoggle">
+		<li><a href="#intro">интро</a></li>
+		<li><a href="#about">обо мне</a></li>
+		<li><a href="#edu">образование</a></li>
+		<li><a href="#works">работы</a></li>
+		<li><a href="#links">контакты</a></li>
+    </ul> -->
+
+    <!--Intro-->
+	<div id="#intro" class="intro">
+		<h1 class="intro__header">Это мой сайт-портфолио</h1>
+		<h2 class="intro__subtitle">Давайте знакомиться</h2>
+	</div>
+	
+	<!--About me-->
+	<div id="#about" class="about">
+		<div class="about__bio">
+			<img src="images/me.jpg" class="about__photo">
+			<h2 class="about__title">Я Анастасия Писнова, и я — начинающий веб-дизайнер</h2>
+		</div>
+		<p class="about__text">Я приехала из сурового северного города, чтобы творить и помогать людям. С самого детства обожаю работать с цветом и текстом, и веб-дизайн — как раз то, что нужно. Помимо этого интересуюсь писательским ремеслом и психологией, рисую карандашом, акварелью и на графическом планшете, изучаю UX/UI копирайт, фронтенд-разработку, базы данных и дизайн интерьеров.</p>
+	</div>
+	
+	<!--Education-->
+	<!--Think about slider with photos-->
+	<div id="#edu" class="edu">
+		<div class="edu__header">
+			<h2 class="edu__title">Применять и искать знания можно даже с дипломом ссуза</h2>
+			<div class="slider">
+				<div class="slider__wrapper">
+					<div class="slider__items">
+						<div class="slider__item">
+							<img class="img-fluid" src="images/certificate_1.jpg" alt="сертификат">
+						</div>
+						<div class="slider__item">
+							<img class="img-fluid" src="images/certificate_2.png" alt="сертификат">
+						</div>
+						<div class="slider__item">
+							<img class="img-fluid" src="images/certificate_3.png" alt="сертификат">
+						</div>
+						<div class="slider__item">
+			        		<img class="img-fluid" src="images/certificate_4.png" alt="сертификат">
+						</div>
+					</div>
+				</div>
+
+				<script src="script.js"></script>
+
+				<a class="slider__control slider__control_prev" href="#" role="button"></a>
+				<a class="slider__control slider__control_next" href="#" role="button"></a>
+			</div>
+		</div>
+		<p class="edu__text">Обучение в колледже дало уверенную базу по Computer Science, основам программирования и веб-дизайну. Студенческая жизнь подтолкнула к самообразованию и прохождению курсов на популярных платформах онлайн-образования. До сих пор в свободное время посещаю бесплатные вебинары и интенсивы и откладываю деньги на обучение в Нетологии.</p>
+	</div>
+	
+	<!--Works-->
+<!-- 	<div id="#works" class="works">
+		<div class="project_block">
+			<img src="images/coursach_1.png">
+			<h2>Творческий бэкграунд и техническая точность</h2>
+		</div>
+		<h3>А что по сайтам?</h3>
+		<div class="sites_flexblock">
+			<figure>
+				<img src="images/site_1.png">
+				<figcaption>Учебный проект интернет-магазина игр</figcaption>
+			</figure>
+			<figure>
+				<img src="images/site_2.png">
+				<figcaption>Сайт-резюме для Рубика, Великого Мага </figcaption>
+			</figure>
+			<figure>
+				<img src="images/site_3.png">
+				<figcaption>Макет-редизайн сайта Archive Of Our Own</figcaption>
+			</figure>
+		</div>
+	</div> -->
+	
+	<!--Links-->
+	<!-- <div id="#links" class="links">
+		<div class="contacts_flex">
+			<h2>У вас есть вопросы или проект? Пишите!</h2>
+			<img src="images/idk.png">
+			<div class="contacts">
+				<p>напишите на почту</p>
+				<p>напишите в телеграм</p>
+				<p>+7 908 718-48-22</p>
+			</div>
+		</div>
+		<h2>Следите за моим прогрессом</h2>
+		<div class="social_flexbox">
+			<div class="social">
+				<p>мой CodePen</p>
+				<p>мой GitHub</p>
+				<p>мой Behance</p>
+			</div>
+			<div class="social_2">
+				<p>публикации на Medium</p>
+				<p>публикации на Хабр</p>
+			</div>
+		</div>
+		<p class="copyright">kawaiianxiety, 2020</p>
+	</div> -->
+</body>
 </html>
