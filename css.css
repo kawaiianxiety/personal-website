@@ -118,6 +118,12 @@ img {
 	}
 }
 
+@media screen and (min-width: 1366px) {
+	.about__bio {
+		padding-bottom: 5%;
+	}
+}
+
 .about__title {
 	font-family: 'Amatic SC Bold', cursive;
 	color: #000;
@@ -142,6 +148,12 @@ img {
 @media screen and (min-width: 1280px) {
 	.about__title {
 		font-size: 80px;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	.about__title {
+		width: 50%;
 	}
 }
 
@@ -245,7 +257,7 @@ img {
 
 @media screen and (min-width: 1280px) {
 	.edu__title {
-		font-size: 64px;
+		font-size: 80px;
 		padding-right: 5%;
 		padding-bottom: 0;
 	}
@@ -458,7 +470,7 @@ img {
 
 @media screen and (min-width: 1280px) {
 	.works__first-heading {
-		font-size: 64px;
+		font-size: 80px;
 	}
 }
 
@@ -579,6 +591,12 @@ figure {
 	}
 }
 
+@media screen and (min-width: 1440px) {
+	.works__figcaption {
+		font-size: 24px;
+	}
+}
+
 .works__figcaption:hover {
 	text-decoration: underline;
 }
@@ -642,7 +660,13 @@ figure {
 
 @media screen and (min-width: 1280px) {
 	.links__title {
-		font-size: 64px;
+		font-size: 80px;
+	}
+}
+
+@media screen and (min-width: 1596px) {
+	.links__title {
+		width: 50%;
 	}
 }
 
@@ -671,7 +695,7 @@ figure {
 
 @media screen and (min-width: 1280px) {
 	.links__title {
-		font-size: 64px;
+		font-size: 80px;
 	}
 }
 
