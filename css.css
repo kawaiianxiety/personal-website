@@ -23,6 +23,10 @@ img {
 	max-width: 100%;
 }
 
+a {
+	color: black;
+}
+
 .margins {
 	position: fixed;
 	pointer-events: none;
@@ -733,7 +737,7 @@ figure {
 }
 
 @media screen and (min-width: 768px) {
-	.links__social-blocks {
+	.links__social-block {
 		box-sizing: border-box;
 		display: flex;
 		justify-content: space-around;
