@@ -20,11 +20,11 @@
 
 	<div class="menu"><!--DON'T TOUCH-->
 		<ul>
-			<li><a href="#intro">интро</a></li>
-			<li><a href="#about">обо мне</a></li>
-			<li><a href="#edu">образование</a></li>
-			<li><a href="#works">работы</a></li>
-			<li><a href="#links">контакты</a></li>
+			<li><a href="#intro" class="menu__link">интро</a></li>
+			<li><a href="#about" class="menu__link">обо мне</a></li>
+			<li><a href="#edu" class="menu__link">образование</a></li>
+			<li><a href="#works" class="menu__link">работы</a></li>
+			<li><a href="#links" class="menu__link">контакты</a></li>
 		</ul>
 	</div>
 
@@ -128,9 +128,15 @@
 			$('.cross').show();
 			$(".menu").slideToggle();
 		});
-			$(".cross").click(function() {
+		$(".cross").click(function() {
 			$(this).hide();
 			$('.hamburger').show();
+			$(".menu").slideToggle();
+		});
+
+		$(".menu__link").click(function() {
+			$('.hamburger').show();
+			$('.cross').hide();
 			$(".menu").slideToggle();
 		});
 	</script>
