@@ -36,9 +36,96 @@ a {
 	z-index: 1;
 }
 
-/*Menu -- in process...*/
+.hamburger{
+  background:none;
+  position:fixed;
+  top:0;
+  line-height:45px;
+  padding: 25px 15px 0px 30px;
+  color:#fff;
+  border:0;
+  font-size: 2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:fixed;
+  top:0px;
+  padding: 35px 15px 0px 30px;
+  color:#000;
+  border:0;
+  font-size:5em;
+  line-height:65px;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  display:none;
+}
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  z-index: 1000000; 
+  width: 100%; 
+  height: 100vh;
+  position: fixed; 
+  display: none;
+    background-color: white; 
+}
 
-/*End of menu*/
+@media screen and (min-width: 300px) and (max-width: 760px) {
+	.menu {
+		font-size: 24px;
+	}
+}
+.menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+.menu li {
+  display: block;   
+  margin: 70px;
+  padding: 15px 0 15px 15px; 
+    background-color: white; 
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+	.menu li {
+		margin: 50px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1175px) {
+	.menu li {
+		margin: 60px;
+	}
+}
+
+.menu li:hover {
+  display: block;  
+  background-color: white; 
+}
+.menu ul li a { 
+  text-decoration:none;  
+  margin: 0px; 
+  color:#000;
+}
+.menu ul li a:hover {  
+  color: #000; 
+  text-decoration: underline;
+}
+.menu a {
+  text-decoration: none; 
+  color: white;
+}
+.menu a:hover {
+  text-decoration: none; 
+  color: white;
+}
 
 .intro {
 	width: 100%;

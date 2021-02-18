@@ -5,21 +5,28 @@
 	<meta name="description" content="Сайт-портфолио начинающего веб-дизайнера и фронтенд-разработчика Анастасии Писновой">
 	<title>Персональный сайт Анастасии Писновой</title>
 	<link rel="stylesheet" href="css.css">
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
 	<!--White margins like Shelnat-->
 	<div class="margins"></div>
     
-    <!--Menu-->
-<!--     <ul class="menutoggle">
-		<li><a href="#intro">интро</a></li>
-		<li><a href="#about">обо мне</a></li>
-		<li><a href="#edu">образование</a></li>
-		<li><a href="#works">работы</a></li>
-		<li><a href="#links">контакты</a></li>
-    </ul> -->
+    <header>
+		<button class="hamburger">&#9776; </button> <!--DON'T TOUCH-->
+		<button class="cross">&#735;</button><!--DON'T TOUCH-->
+	</header>
+
+	<div class="menu"><!--DON'T TOUCH-->
+		<ul>
+			<li><a href="#">интро</a></li>
+			<li><a href="#">обо мне</a></li>
+			<li><a href="#">образование</a></li>
+			<li><a href="#">работы</a></li>
+			<li><a href="#">контакты</a></li>
+		</ul>
+	</div>
 
     <!--Intro-->
 	<div id="#intro" class="intro">
@@ -115,5 +122,17 @@
 		</div>
 		<p class="copyright">kawaiianxiety, 2020</p>
 	</div>
+	<script type="text/javascript">
+		$(".hamburger").click(function() {
+			$(this).hide();
+			$('.cross').show();
+			$(".menu").slideToggle();
+		});
+			$(".cross").click(function() {
+			$(this).hide();
+			$('.hamburger').show();
+			$(".menu").slideToggle();
+		});
+	</script>
 </body>
 </html>
