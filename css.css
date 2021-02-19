@@ -802,10 +802,6 @@ figure {
 	}
 }
 
-.links__contacts {
-
-}
-
 .links__text {
 	font-family: 'Montserrat-Regular', 'Arial', sans-serif;
 	font-size: 18px;
@@ -821,6 +817,10 @@ figure {
 	.links__text {
 		font-size: 28px;
 	}
+}
+
+.links__text:hover {
+	text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
