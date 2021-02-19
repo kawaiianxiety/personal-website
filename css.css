@@ -37,42 +37,42 @@ a {
 }
 
 .hamburger{
-  background:none;
-  position:fixed;
-  top:0;
-  line-height:45px;
-  padding: 25px 15px 0px 30px;
-  color:#fff;
-  border:0;
-  font-size: 2em;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
+	background: none;
+	position: fixed;
+	top: 0;
+	line-height: 45px;
+	padding: 25px 15px 0px 30px;
+	color: white;
+	border: 0;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index:10000000000000;
 }
 .cross{
-  background:none;
-  position:fixed;
-  top:0px;
-  padding: 35px 15px 0px 30px;
-  color:#000;
-  border:0;
-  font-size:5em;
-  line-height:65px;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
-  display:none;
+	background: none;
+	position: fixed;
+	top: 0px;
+	padding: 35px 15px 0px 30px;
+	color: #000;
+	border: 0;
+	font-size: 5em;
+	line-height: 65px;
+	cursor: pointer;
+	outline: none;
+	z-index: 10000000000000;
+	display: none;
 }
 .menu {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
-  z-index: 1000000; 
-  width: 100%; 
-  height: 100vh;
-  position: fixed; 
-  display: none;
-    background-color: white; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	z-index: 1000000; 
+	width: 100%; 
+	height: 100vh;
+	position: fixed; 
+	display: none;
+	background-color: white; 
 }
 
 @media screen and (min-width: 300px) and (max-width: 760px) {
@@ -81,16 +81,16 @@ a {
 	}
 }
 .menu ul {
-  margin: 0; 
-  padding: 0; 
-  list-style-type: none; 
-  list-style-image: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
 }
 .menu li {
-  display: block;   
-  margin: 70px;
-  padding: 15px 0 15px 15px; 
-    background-color: white; 
+	display: block;
+	margin: 70px;
+	padding: 15px 0 15px 15px;
+	background-color: white;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
@@ -106,25 +106,25 @@ a {
 }
 
 .menu li:hover {
-  display: block;  
-  background-color: white; 
+	display: block;
+	background-color: white;
 }
 .menu ul li a { 
-  text-decoration:none;  
-  margin: 0px; 
-  color:#000;
+	text-decoration: none;  
+	margin: 0; 
+	color: #000;
 }
 .menu ul li a:hover {  
-  color: #000; 
-  text-decoration: underline;
+	color: #000;
+	text-decoration: underline;
 }
 .menu a {
-  text-decoration: none; 
-  color: white;
+	text-decoration: none;
+	color: white;
 }
 .menu a:hover {
-  text-decoration: none; 
-  color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .intro {
@@ -405,7 +405,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	width: 40px;
-	color: #fff;
+	color: white;
 	text-align: center;
 	opacity: 0.5;
 	height: 50px;
@@ -419,7 +419,7 @@ a {
 
 .slider__control:hover,
 .slider__control:focus {
-	color: #fff;
+	color: white;
 	text-decoration: none;
 	outline: 0;
 	opacity: 0.9;
