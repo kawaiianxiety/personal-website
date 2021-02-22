@@ -1,3 +1,10 @@
+<!--Hiii. I'm Stasia and this is my last project for college.
+This is personal website that shows who I am, what I do and how to contact me.
+Some JavaScript code was taken from forums and StackOverflow bc I rly can't understand this. But I work on it. Seriously.
+If u have any questions, please contact me via email or Telegram.
+
+Good luck!-->
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,15 +17,17 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
-	<!--White margins like Shelnat-->
+	<!--White margins like Shelnat site-->
 	<div class="margins"></div>
-    
+
+	<!--Please don't touch class names,
+	they're using in jQuery script-->
     <header>
-		<button class="hamburger">&#9776; </button> <!--DON'T TOUCH-->
-		<button class="cross">&#735;</button><!--DON'T TOUCH-->
+		<button class="hamburger">&#9776; </button>
+		<button class="cross">&#735;</button>
 	</header>
 
-	<div class="menu"><!--DON'T TOUCH-->
+	<div class="menu">
 		<ul>
 			<li><a href="#intro" class="menu__link">интро</a></li>
 			<li><a href="#about" class="menu__link">обо мне</a></li>
@@ -28,22 +37,22 @@
 		</ul>
 	</div>
 
-    <!--Intro-->
+    <!--Intro block-->
 	<div id="intro" class="intro">
 		<h1 class="intro__header">Это мой сайт-портфолио</h1>
 		<h2 class="intro__subtitle">Давайте знакомиться</h2>
 	</div>
 	
-	<!--About me-->
+	<!--About me block-->
 	<div id="about" class="about">
 		<div class="about__bio">
 			<img src="images/me.jpg" class="about__photo" alt="Моё фото">
 			<h2 class="about__title">Я Анастасия Писнова, и я — начинающий веб-дизайнер</h2>
 		</div>
-		<p class="about__text">Я приехала из сурового северного города, чтобы творить и помогать людям. С самого детства обожаю работать с цветом и текстом, и веб-дизайн — как раз то, что нужно. Помимо этого интересуюсь писательским ремеслом и психологией, рисую карандашом, акварелью и на графическом планшете, изучаю UX/UI копирайт, фронтенд-разработку, базы данных и дизайн интерьеров.</p>
+		<p class="about__text">Я приехала из сурового северного города, чтобы творить и помогать людям. С самого детства обожаю работать с цветом и текстом, и веб-дизайн — как раз то, что нужно. Помимо этого интересуюсь писательским ремеслом и психологией, рисую карандашом, акварелью и на графическом планшете, изучаю UX/UI копирайт, базы данных и дизайн интерьеров.</p>
 	</div>
 	
-	<!--Education-->
+	<!--Education block-->
 	<div id="edu" class="edu">
 		<div class="edu__header">
 			<h2 class="edu__title">Применять и искать знания можно даже с дипломом ссуза</h2>
@@ -65,6 +74,7 @@
 					</div>
 				</div>
 
+				<!--JavaScript slider-->
 				<script src="script.js"></script>
 
 				<a class="slider__control slider__control_prev" href="#" role="button"></a>
@@ -74,7 +84,7 @@
 		<p class="edu__text">Обучение в колледже дало уверенную базу по Computer Science, основам программирования и веб-дизайну. Студенческая жизнь подтолкнула к самообразованию и прохождению курсов на популярных платформах онлайн-образования. До сих пор в свободное время посещаю бесплатные вебинары и интенсивы и откладываю деньги на обучение в Нетологии.</p>
 	</div>
 	
-	<!--Works-->
+	<!--Works block-->
  	<div id="works" class="works">
 		<div class="works__header">
 			<img src="images/coursach_1.png" class="works__image" alt="Иллюстрация">
@@ -82,6 +92,7 @@
 		</div>
 		<h3 class="works__heading">А что по сайтам?</h3>
 		<div class="works__flexblock">
+			<!--This is old tag, but it's rly useful for this task-->
 			<figure>
 				<img src="images/site_1.png" class="works__site" alt="Список желаний на Новый год. Ссылка на GitHub pages">
 				<figcaption class="works__figcaption">
@@ -103,22 +114,21 @@
 		</div>
 	</div>
 	
-	<!--Links-->
+	<!--Links block-->
 	<div id="links" class="links">
 		<div class="links__header">
 			<h2 class="links__title">У вас есть вопросы или проект? Пишите!</h2>
-			<img src="images/idk.png" class="links__image" alt="">
 			<div class="links__contacts">
 				<p class="links__text">
-					<img src="images/icons/Mail.svg">
-					<a href="mailto:pisnova@hotmail.com"> напишите на почту</a> 
+					<img src="images/icons/Mail.svg" alt="">
+					<a href="mailto:pisnovastasia@gmail.com"> напишите на почту</a>
 				</p>
 				<p class="links__text">
-					<img src="images/icons/Telegram.svg">
+					<img src="images/icons/Telegram.svg" alt="">
 					<a href="https://t.me/kawaiianxiety" target="_blank"> напишите в телеграм</a>
 				</p>
 				<p class="links__text">
-					<img src="images/icons/Phone.svg">
+					<img src="images/icons/Phone.svg" alt="">
 					<a href="tel: +79087184822"> +7 908 718-48-22</a>
 				</p>
 			</div>
@@ -126,20 +136,24 @@
 		<h2 class="links__title2">Следите за моим прогрессом</h2>
 		<div class="links__social-block">
 			<p class="links__text">
-				<img src="images/icons/Codepen.svg">
+				<img src="images/icons/Codepen.svg" alt="">
 				<a href="https://codepen.io/kawaiianxiety"> мой CodePen</a>
 			</p>
 			<p class="links__text">
-				<img src="images/icons/Github.svg">
+				<img src="images/icons/Github.svg" alt="">
 				<a href="https://github.com/kawaiianxiety"> мой GitHub</a>
 			</p>
 			<p class="links__text">
-				<img src="images/icons/Behance.svg">
+				<img src="images/icons/Behance.svg" alt="">
 				<a href="https://www.behance.net/kawaiianxiety"> мой Behance</a>
 			</p>
 		</div>
+		<!--Small copyright-->
 		<p class="copyright">kawaiianxiety, 2020</p>
 	</div>
+
+	<!--jQuery script for menu.
+	It doesn't work without the Internet, test it with the Internet-->
 	<script type="text/javascript">
 		$(".hamburger").click(function() {
 			$(this).hide();

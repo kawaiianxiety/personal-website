@@ -1,3 +1,5 @@
+/*Open-source Google fonts on local storage*/
+
 @font-face {
 	font-family: 'Amatic SC Bold';
 	src: url(fonts/AmaticSC-Bold.ttf) format('truetype');
@@ -27,6 +29,7 @@ a {
 	color: black;
 }
 
+/*White margins like Shelnat site*/
 .margins {
 	position: fixed;
 	pointer-events: none;
@@ -36,12 +39,13 @@ a {
 	z-index: 1;
 }
 
+/*Menu styles*/
 .hamburger{
 	background: none;
 	position: fixed;
 	top: 0;
 	line-height: 45px;
-	padding: 25px 15px 0px 30px;
+	padding: 25px 15px 0 30px;
 	color: white;
 	border: 0;
 	font-size: 2em;
@@ -53,8 +57,8 @@ a {
 .cross{
 	background: none;
 	position: fixed;
-	top: 0px;
-	padding: 35px 15px 0px 30px;
+	top: 0;
+	padding: 35px 15px 0 30px;
 	color: #000;
 	border: 0;
 	font-size: 5em;
@@ -127,6 +131,7 @@ a {
 	color: white;
 }
 
+/*Intro block*/
 .intro {
 	width: 100%;
 	height: 100vh;
@@ -175,6 +180,8 @@ a {
 	}
 }
 
+
+/*About me block*/
 .about {
 	width: 100%;
 	height: 100vh;
@@ -248,7 +255,6 @@ a {
 	}
 }
 
-/*What's about border blur?*/
 .about__photo {
 	width: 20%;
 	height: 20%;
@@ -290,6 +296,8 @@ a {
 	}
 }
 
+
+/*Education block*/
 .edu {
 	width: 100%;
 	height: 100vh;
@@ -354,7 +362,7 @@ a {
 	}
 }
 
-/* стили основного контейнера слайдера */
+/* Styles for main slider container*/
 .slider {
 	position: relative;
 	overflow: hidden;
@@ -362,7 +370,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 
-/*Мммм, костыли*/
+/*Mmmm, crutches!*/
 	left: 25px;
 }
 
@@ -379,25 +387,25 @@ a {
 	}
 }
 
-/* стили для обёртки, в которой заключены слайды */
+/*Styles for slider wrapper */
 .slider__wrapper {
 	position: relative;
 	overflow: hidden;
 }
 
-/* стили для контейнера слайдов */
+/*Styles for imgs container*/
 .slider__items {
 	display: flex;
 	transition: transform 0.6s ease;
 }
 
-/* стили для слайдов */
+/* Styles for imgs*/
 .slider__item {
 	flex: 0 0 100%;
 	max-width: 100%;
 }
 
-/* стили для кнопок "вперед" и "назад" */
+/* Styles for 'next' and 'back' buttons*/
 .slider__control {
 	position: absolute;
 	top: 50%;
@@ -450,7 +458,7 @@ a {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-/* стили для индикаторов */
+/* Styles for indicators*/
 .slider__indicators {
 	position: absolute;
 	right: 100px;
@@ -486,9 +494,6 @@ a {
 .img-fluid {
 	display: inline-block;
 	width: 80%;
-
-	/*height: auto;*/
-/*	max-width: 100%;*/
 }
 
 .edu__text {
@@ -510,6 +515,7 @@ a {
 	}
 }
 
+/*Works block*/
 .works {
 	width: 100%;
 	height: 100vh;
@@ -537,6 +543,7 @@ a {
 	}
 }
 
+/*Okay, it's not so good class naming...*/
 .works__first-heading {
 	font-family: 'Amatic SC Bold', cursive;
 	color: #000;
@@ -692,6 +699,7 @@ figure {
 	text-decoration: underline;
 }
 
+/*Links block*/
 .links {
 	width: 100%;
 	height: 100vh;
@@ -717,6 +725,7 @@ figure {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		padding-bottom: 3%;
+		align-items: center;
 	}
 }
 
@@ -790,18 +799,6 @@ figure {
 	}
 }
 
-.links__image {
-	display: none;
-}
-
-@media screen and (min-width: 1150px){
-	.links__image {
-		display: inline-block;
-		width: 35%;
-		height: 35%;
-	}
-}
-
 .links__text {
 	font-family: 'Montserrat-Regular', 'Arial', sans-serif;
 	font-size: 18px;
@@ -816,6 +813,7 @@ figure {
 @media screen and (min-width: 768px){
 	.links__text {
 		font-size: 28px;
+		padding-bottom: 15px;
 	}
 }
 
@@ -835,6 +833,7 @@ figure {
 	padding-bottom: 5%;
 }
 
+/*Small copyright*/
 .copyright {
 	font-family: 'Montserrat-Regular', 'Arial', sans-serif;
 	font-size: 18px;
@@ -845,7 +844,7 @@ figure {
 	padding-top: 100%;
 }
 
-/*КОСТЫЛИ*/
+/*CRUTCHES CRUTCHES CRUTCHES CRUTCHES*/
 @media screen and (min-width: 300px) {
 	.copyright {
 		padding-top: 60%;
