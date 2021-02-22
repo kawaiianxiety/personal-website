@@ -770,6 +770,18 @@ figure {
 	}
 }
 
+.links__resume {
+	padding-bottom: 10%;
+}
+
+@media screen and (min-width: 1150px){
+	.links__resume {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 5%;
+	}
+}
+
 .links__title2 {
 	width: 100%;
 	font-family: 'Amatic SC Bold', cursive;
