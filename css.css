@@ -54,6 +54,7 @@ a {
 	outline: none;
 	z-index:10000000000000;
 }
+
 .cross{
 	background: none;
 	position: fixed;
@@ -68,6 +69,7 @@ a {
 	z-index: 10000000000000;
 	display: none;
 }
+
 .menu {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
@@ -160,7 +162,6 @@ a {
 		font-size: 90px;
 	}
 }
-
 
 .intro__subtitle {
 	font-family: 'Amatic SC Bold', cursive;
